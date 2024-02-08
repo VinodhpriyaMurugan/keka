@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 0px !important;
+}
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+}
+div#kh-embed-jobs-filters {
+  visibility: hidden !important;
+}
+h1.kh-font-weight-600.kh-col-sm-12.kh-mb-16.kh-mt-0.kh-d-flex.kh-align-items-center.kh-flex-wrap.kh-text-truncate-2 {
+  visibility: hidden !important;
+}
+.kh-container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  visibility: hidden !important;
+}
+.kh-main-container {
+  --font-size: 13px;
+  font-family: "Proxima Nova";
+  margin-left: 1% !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.jobDescList > h2 {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 26px;
+}
+
+.jobDescList > h3 {
+  margin-bottom: 3rem;
+  font-size: 26px;
+}
+
+.jobDescList > p {
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+
+.jobDescList > ul > li {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 18px;
+  list-style: none;
+}
+
+.jobDescList > ul > li::before {
+  content: "";
+  display: list-item;
+  position: relative;
+  left: -30px;
+  width: 20px;
+  height: 1.5em;
+  margin-top: 4px;
+  margin-bottom: -30px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQISURBVHgBzZjPT1NZFMfPua9QisAUmJ+ZSSgmLFxMoivtbCh/gSbM0sTOZpKBSay72QGrmZ1MMhIzG2sy20l04xbcWFihxsSFiZQEoxEKFbXSX+94zu2PvJb+eO/x2vJd9L1737m9n5xz7k8El4ptbgVzR8NXAGEaEc8DQZCrQxaTJAAlCTAJVHxoQnHtdvi7JLgQOjEWsOynoahSeJmbRsCxaI3IvLsS/jrupJVtyN8e7caUUgv8GoQTisTLVFyyC9sWMpZ4Hcpj3x13nmstgTUpN9MuDVSrj/Mbe9fy2L/ZCUAReyhk8P9LlFrZNYWc20gtAGEcPAhvGwU5jW7q/pqoYbilARIsQpdFCIsrF8eX6uuPQZYHyE3olVBFb10cvVtTZS2UBonkYMdD3ErpIuUuWAdTTU4y4Cr0FlAUNNB/x1pRhZxLvI1C7YrRQ1HEOuKrkIjGApwiycIR2zzQUdWQp8uLVfESXIjKi4ZEVNegy5oa9sGYv+Vawt40LssTyyN6C7qo2YkAzHwbgJ2PBfjr2WFL2z6/GvXlwIg42gqdUFfPnoFLX/n1+9ODXFv73FH+ig9BRaALCnBPv04NwdRIny4/2MnAg1dH7RuiMe3j6XwCOiwBvH5uGH4Y9Ony/9sZWH1jAxBktcHzPt4vTUIH4y2DQwDH/YYu//fyA6zvtg9zRQQUZE9ixzxpBfxUIPj3xQd4cZh39B+ynVN2jSVkkW8G2k4bzQD/fn7oGLAi25AzDPhzaLCcW0ZL2+/5ewVwP2vyNPMOdjJFcCsFRNt2DDf2srpD6fj6uZGmoCXAkSqgeDDFT7eSI4YChQd2jFPlDqVjCf0fP37B811/jY2UBXCQv3sBWKKkbQUmPbFrLx3+qUNX0OWrZ4d45fBXAaUsgK8yBR3iEwOKELcUu3PNSZvSIHjPg6AEOjtxRuefAIqkXr5n2M4TET1E2Q7ls6atkNdrdmKQPTlQLa/vZnke/AheqkhqUk/j8+v7q7LRBBeSZW6sX8F+znQ9xTQTsRdXwl9G9DplmsX7vMmMgAt5DVanuPzoedIf8EkhDadIctHFXozLu4ZcvjAqgEtwmkRmladma3GS3PRS2ouXxiYr5ZplsY/wF+h52DFtEs5Ya2ogl8OjSR5RN6CXMmnpNnNYq45tMCRZ+R6oJ/kp/d76aXz5WH2zBr8nUot8gdS1s7gA/hMeX2z4rVXD+fWU3CJ4crvbXJjmK+oblemmoQW0USxxwEdeklEfAo8lK4oJRrQ+B+tl+3Qzl9iL8iXCgjewmJYB0ij/GlqDQwksPxgYp8GhxHNEeM8fUPHyAmJLrs+JkgY5KMrFQoQ3ZSE+eoZqjscE21zmOY8es81a/4BxzwmYVZ8BOzuTmAG0ktkAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+/* input#referral_id {
+  position: absolute;
+  width: 10%;
+  left: 84%;
+} */
+pre {
+  /* font: 0.875rem/1.5 Consolas,monaco,monospace; */
+  color: black;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  overflow: auto;
+  padding: 10px;
+  border: 0px solid #e5e5e5 !important;
+  border-radius: 3px;
+  background: #fff;
+  font-weight: 500 !important;
+  font-family: "Barlow" !important;
+  font-size: 1rem !important;
+  white-space: pre-wrap !important;
+  text-align: justify !important;
+}
+button.btn.btn-primary.applyButton {
+  width: 15%;
+  border-radius: 14px !important;
+  font-size: 13px;
+  height: 5vh;
+  font-weight: 500;
+}
+
+.uk-link-reset.uk-card.uk-card-default.uk-card-body.uk-width-1-1\@m.uk-margin-medium-top.uk-box-shadow-medium:hover {
+  box-shadow: 0 5px 15px rgb(0 0 0 / 47%) !important;
+}
+
+/* .uk-link-reset.uk-card.uk-ca;rd-default.uk-card-body.uk-width-1-1\@m.uk-margin-medium-top.uk-box-shadow-medium.newCss:hover{
+  text-decoration: none !important;
+  text-decoration-color: white !important;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 47%) !important;
+  color: blueviolet !important;
+} */
